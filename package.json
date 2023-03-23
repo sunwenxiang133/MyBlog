@@ -1,0 +1,21 @@
+{
+  "name": "MyBlog-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sunwenxiang133/MyBlog.git",
+  "author": "sun <sunwenxiang133@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
