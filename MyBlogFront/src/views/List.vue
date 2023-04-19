@@ -13,6 +13,7 @@
       <div @click="articleDetail(item)">
         <div class="head">
           <h3>{{ item.title }}</h3>
+          <div style="front-size='30px'">测试文字</div>
           <div v-if="$route.type == 'search' || $route.type == 'tag'">
             {{ item.type == "blog" ? "博客" : "心情" }}
           </div>
