@@ -1,6 +1,6 @@
 <template>
 	<div id="header-box" :style="`${color};${headFootBg}`">
-		<img src="@/assets/logo.png" alt="欢迎来Meditators的博客" class="logo" />
+		<!-- <img src="@/assets/logo.png" alt="欢迎来Meditators的博客" class="logo" /> -->
 		<el-input
 			placeholder="请输入关键字..."
 			v-model="searchValue"

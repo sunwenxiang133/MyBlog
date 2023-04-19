@@ -13,7 +13,7 @@
     <div class="info card" :style="`${infoBgColor}`">
       <img :src="infoBgUrl" alt="avatar" />
       <el-avatar :src="avatarUrl" class="avatar" :size="50"></el-avatar>
-      <div class="my-name">孤城浪人</div>
+      <div class="my-name">软工大作业</div>
       <div class="info-detail">
         <div>
           博客<span>{{ webInfo.blogNums || 0 }}</span>
