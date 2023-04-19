@@ -42,6 +42,13 @@
 				</button>
 			</div>
 		</div>
+		 <div class="videoContainer">
+      <video class="fullscreenVideo" id="bgVid" playsinline="" autoplay="" muted="" loop="">
+        <source src="../assets/bgvideo.mp4" type="video/mp4">
+      </video>
+    </div>
+
+
 	</div>
 </template>
 <script>
@@ -164,6 +171,27 @@ export default {
 </script>
 
 <style scoped>
+.videoContainer{
+	margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.videoContainer:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  /* background: rgba(25,29,34,.65); */
+}
+
 .err-msg {
 	color: #ffffff;
 	font-size: 14px;
@@ -181,15 +209,15 @@ button {
 #box {
 	height: 100vh;
 	width: 100vw;
-	overflow: hidden;
-	background-image: url("../assets/bg.jpg");
+	/* background-image: url("../assets/bg.jpg"); */
 	/* background: linear-gradient(#141e30, #243b55); */
+	/* overflow: hidden;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	color: #03e9f4;
 	font-size: 16px;
-	position: relative;
+	position: relative; */
 }
 
 .login-main-box {
@@ -258,6 +286,7 @@ h2 {
 	border-bottom: 1px solid #fff;
 	margin-bottom: 40px;
 	position: relative;
+	color:#f5c506 !important
 }
 
 .item input {

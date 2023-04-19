@@ -7,8 +7,10 @@ import "nprogress/nprogress.css";
 import store from "@/store";
 const requests = axios.create({
 	// 配置对象
-	// 基础路径
-	baseURL: "http://162.14.78.140:3000/api",
+	// 业务路径
+	// baseURL: "http://162.14.78.140:3000/api",
+	// 测试路径
+	baseURL: "http://localhost:3000/api",
 	// 请求超时的时间限 制
 	timeout: 5000,
 });

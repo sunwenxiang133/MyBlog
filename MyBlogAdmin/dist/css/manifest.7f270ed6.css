@@ -74,17 +74,18 @@ button[data-v-0b352af0] {
 	outline: none;
 }
 #box[data-v-0b352af0] {
-	height: 100vh;
+	/* height: 100vh; */
 	width: 100vw;
 	overflow: hidden;
-	background-image: url(/img/bg.dbccdb73.jpg);
-	/* background: linear-gradient(#141e30, #243b55); */
+
+	/* background-image: url(/img/bg.dbccdb73.jpg); */
+	/* background: linear-gradient(#141e30, #243b55);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	color: #03e9f4;
 	font-size: 16px;
-	position: relative;
+	position: relative; */
 }
 .login-main-box[data-v-0b352af0] {
 	width: 400px;
