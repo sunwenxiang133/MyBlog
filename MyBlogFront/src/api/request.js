@@ -3,7 +3,10 @@
 const requests = axios.create({
 	// 配置对象
 	// 基础路径
-	baseURL: 'http://162.14.78.140:3000/api',
+	// 后端端口位置
+	// baseURL: 'http://162.14.78.140:3000/api',
+	// 测试位置
+	baseURL: 'http://localhost:3000/api',
 	// 请求超时的时间限 制
 	timeout: 5000,
 });

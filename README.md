@@ -1,4 +1,4 @@
-# 我的博客(MyBlog)
+# 课程设计(博客项目)
 
 ## 技术栈：vue2 + vuex + vue-router + axios + nodejs + express + mongodb + element-ui + echarts
 
@@ -31,8 +31,6 @@
 ## 安装运行
 
 ### 导入数据库数据
-
-我是使用 compass 可视化工具导出的,使用其他可视化工具导入可能略有不同，请自行百度导入。
 
 - 路由数据：`./MongodbData/routes.json`,若未导入则后台管理系统因没有路由数据将无法正常访问。
 - 时间线数据：`./MongodbData/timeclues.json`,此部分数据记录了项目的开发历程，可选
