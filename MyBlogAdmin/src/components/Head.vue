@@ -66,7 +66,7 @@ export default {
 	height: 45px;
 	width: 100%;
 	padding-left: 1vw;
-	background-color: rgb(50, 50, 50);
+	background-color: #5840ba;
 	color: #fff;
 	position: fixed;
 	top: 0;
