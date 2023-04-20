@@ -77,11 +77,15 @@
     </el-calendar>
     <div class="like-context card" :style="`${color};${mainBg}`">
       <i class="el-icon-alarm-clock" style="margin-right: 10px"></i
-      >年轻人，你怎么睡的着啊！
+      >你这个年龄段，能睡得着觉？有点出息没有？
     </div>
     <div class="like-context card" :style="`${color};${mainBg}`">
       <i class="el-icon-aim" style="margin-right: 10px"></i
-      >瞄准目标，坚定地走下去！
+      >经典的错误，标准的0分
+    </div>
+    <div class="like-context card" :style="`${color};${mainBg}`">
+      <i class="el-icon-alarm-clock" style="margin-right: 10px"></i
+      >晚上两点钟之前必须睡觉，早上多睡会儿，六点钟再起床，每天保持四个小时的充足睡眠
     </div>
   </div>
 </template>
